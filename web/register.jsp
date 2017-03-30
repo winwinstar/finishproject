@@ -110,33 +110,34 @@
 
         <div class ="xyc1">欢迎注册学工宝典</div>
         <div class="pos">
+
+            <form action = "/RegisterServlet" method="post">
             <div class="text-style"><span>用户名:</span>
                 <span><input type="text" name="userAccount" class="input-style"></span>
             </div>
-
-
-
             <div class="text-style">密&nbsp码:
                 <input type="password" name="userPassword" class="input-style">
             </div>
-            <div class="text-style">确认密码:
-                <input type="password" name="userPassword" class="input-style2">
-            </div>
+            <%--<div class="text-style">确认密码:--%>
+                <%--<input type="password" name="userPassword1" class="input-style2">--%>
+            <%--</div>--%>
 
+            <div class="button_styleone">
+                    <div class="xyc2">
+                        <input type="submit" class="button1" value="立即注册">
+                    </div>
+                    <%--<div class="xyc2">--%>
+                        <%--<form action="login.jsp" method="get">--%>
+                            <%--<input type="submit" class="button1" value="返回登陆">--%>
+                        <%--</form>--%>
+                        <%--&lt;%&ndash;<input type="submit" value="登陆" class="">&ndash;%&gt;--%>
+                    <%--</div>--%>
+
+                </div>
+            </form>
 
         </div>
-        <div class="button_styleone">
-            <div class="xyc2">
-                <input type="submit" class="button1" value="立即注册">
-            </div>
-            <div class="xyc2">
-                <form action="login.jsp" method="get">
-                <input type="submit" class="button1" value="返回登陆">
-                </form>
-                <%--<input type="submit" value="登陆" class="">--%>
-            </div>
 
-        </div>
 
     </div>
 </div>
